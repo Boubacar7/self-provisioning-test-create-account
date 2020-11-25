@@ -16,7 +16,7 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  width: 800px;
+  width: 600px;
   min-width: 100px;
   min-height: 400px;
   padding: 20px 40px 40px 40px;

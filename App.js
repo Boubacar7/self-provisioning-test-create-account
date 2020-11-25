@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import { Form, Field } from "@progress/kendo-react-form";
 import { Input, Checkbox } from "@progress/kendo-react-inputs";
 import { DropDownList } from "@progress/kendo-react-dropdowns";
-import countries from "./countries";
+{
+  /*import countries from "./countries"; */
+}
 
 const CustomInput = ({ fieldType, ...others }) => {
   return (
