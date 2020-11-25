@@ -16,19 +16,20 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 800px;
   min-width: 100px;
   min-height: 400px;
   padding: 20px 40px 40px 40px;
-  border-radius: 6px;
-  box-shadow: 0px 8px 36px #222;
+  border-radius: 1px;
+  box-shadow: 0px 1px 2px #222;
   background-color: #fefefe;
 }
 
 form > h1 {
   display: flex;
   justify-content: center;
-  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue",
+    sans-serif;
   font-size: 2em;
   font-weight: lighter;
   margin-top: 0.25em;
@@ -63,7 +64,8 @@ input {
 input[type="checkbox"].invalid {
   box-shadow: 0px 0px 0px 1px #db2269;
 }
-input, select {
+input,
+select {
   padding: 10px 10px;
   border-radius: 5px;
   border: 1px solid #d6d1d5;
@@ -83,14 +85,14 @@ button {
   cursor: pointer;
   margin-right: 0.25em;
   margin-top: 1em;
-  padding: 	0.938em;
+  padding: 0.938em;
   border: none;
   border-radius: 4px;
-  background-color: #22223B;
+  background-color: #22223b;
   color: #fefefe;
 }
 button:hover {
-  background-color: #4A4E69;
+  background-color: #4a4e69;
   color: #fefefe;
 }
 button:disabled {
@@ -98,11 +100,12 @@ button:disabled {
 }
 
 .required {
-  color:#db2269;
+  color: #db2269;
   font-size: 0.8em;
   margin-top: 0.5em;
 }
 
-.k-textbox-container, .k-floating-label-container {
+.k-textbox-container,
+.k-floating-label-container {
   width: 100%;
 }
