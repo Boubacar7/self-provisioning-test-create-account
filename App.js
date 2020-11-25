@@ -62,10 +62,10 @@ export default function App() {
       onSubmit={handleSubmit}
       render={formRenderProps => (
         <form onSubmit={formRenderProps.onSubmit}>
-          <h1>Create Account</h1>
+          <h1>Create AOSC Account</h1>
 
           <Field
-            label="Email"
+            label="Email Atos"
             name="email"
             fieldType="email"
             component={CustomInput}
