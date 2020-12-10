@@ -65,7 +65,7 @@ export default function App() {
       onSubmit={handleSubmit}
       render={formRenderProps => (
         <form onSubmit={formRenderProps.onSubmit}>
-          <h1>Create an Account</h1>
+          <h1>Create new Account</h1>
 
           <Field
             label="Email Atos"
@@ -98,7 +98,9 @@ export default function App() {
             validator={requiredValidator}
           />
 
-          <button disabled={!formRenderProps.allowSubmit}>Submit</button>
+          <button disabled={!formRenderProps.allowSubmit}>
+            Create new Account
+          </button>
         </form>
       )}
     />
