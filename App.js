@@ -101,6 +101,9 @@ export default function App() {
           <button disabled={!formRenderProps.allowSubmit}>
             Create new Account
           </button>
+          <br />
+          <h8> ──────────────────── Sign in ───────────────────── </h8>
+          <button disabled={!formRenderProps.allowSubmit}>Sign in</button>
         </form>
       )}
     />
