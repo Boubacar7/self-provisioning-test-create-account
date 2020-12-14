@@ -68,7 +68,7 @@ export default function App() {
           <h1>Create new Account</h1>
 
           <Field
-            label="Email Atos"
+            label="Email "
             name="email"
             fieldType="email"
             component={CustomInput}
